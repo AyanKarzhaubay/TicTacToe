@@ -1,0 +1,241 @@
+/* src/TicTacToe.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f7f7f7;
+    margin: 0;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .board-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .square:hover {
+    background: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .winner {
+    color: #e74c3c;
+  }
+
+  /* src/TicTacToe.css */
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  /* src/TicTacToe.css */
+  .name-inputs {
+    margin-bottom: 20px;
+  }
+  
+  .name-inputs input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .status.winner {
+    color: #e74c3c;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  /* src/TicTacToe.css */
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .square:hover {
+    background: #ddd;
+    transform: scale(1.05);
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .status {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .winner {
+    color: #28a745;
+  }
+  
+  .name-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .name-inputs input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .status {
+    margin: 20px 0;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls .btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .controls .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .controls .btn:focus {
+    outline: none;
+  }
+  
+  .score {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .score .player-score {
+    margin: 0 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .score .player-score span {
+    display: block;
+    font-size: 24px;
+    color: #333;
+  }
+  
